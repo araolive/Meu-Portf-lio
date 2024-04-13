@@ -60,15 +60,58 @@ html{
 
 .main h1{
     color: #FFFFFF;
-    font-size: 54px;
+    font-size: 45px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    /*Efeito de digitação*/
+    
+    white-space: nowrap;
+
+    width: 26ch;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 4s steps(22, end) infinite;
+      
+}
+
+@keyframes mark{
+
+  50%{
+    border-right-color: transparent;
+  }
+}
+
+@keyframes write{
+  0%{
+    width: 0;
+  }
+}
+
+.main h2{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #6e297f;
+    font-size: 45px;
+
+    white-space: nowrap;
+
+    width: 26ch;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 4s steps(22, end) infinite;
 }
 
 .main p{
     font-size: 24px;
     font-style: italic;
-    color: #1e96fc;
+    color: #9a9a9a;
     margin-top: 10px;
     margin-bottom: 35px;
+
+    white-space: nowrap;
+
+    width: 26ch;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 4s steps(22, end) infinite;
 }
 
 .call-to-action{
@@ -96,7 +139,7 @@ html{
 /* Inicio sobre*/
 
 .about{
-    background-color: #464444;   
+    background-image: url("images/programador.png");   
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -111,13 +154,15 @@ html{
 
 }
 
+
+
 .about div{
     max-width: 50%;
     padding-right: 40px;
 }
 
 .about img{
-    max-width: 450px;
+    max-width: 800px;
     border-radius: 8px;
 }
 
@@ -366,7 +411,14 @@ footer{
 
 }
 
-
-
-
 /*Fim Responsividade*/
+
+/*Colocando efeitos nas páginas*/
+
+.about, .projects, .main{
+  visibility: hidden;
+
+}
+
+
+/*Fim de efeito*/
