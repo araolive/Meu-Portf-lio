@@ -1,0 +1,368 @@
+@media (max-width: 1500px){
+    
+
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: inherit;
+        padding-top: 50px;
+        padding-bottom: 0;
+        padding-left: 0;
+        z-index: 0;
+    }
+
+    .linha-container-header::before{
+        z-index: 1;
+    }
+    .container-header{
+        z-index: 1;
+    }
+    .linha-container-header{
+        z-index: 1;
+    }
+
+    .main{
+        padding-left: 0;
+    }
+
+    .about{
+        padding-left: 0;
+    }
+
+    .servicos{
+        padding-left: 0;
+    }
+    .resumo{
+        padding-left: 0;
+    }
+    .class-educacao{
+        padding-left: 0;
+    }
+
+    footer{
+        padding-left: 0;
+    }
+}
+
+
+@media (max-width: 1247px){
+    
+    .linha-container-main{
+        max-width: 90%;
+    }
+    .container-main{
+        max-width: 90%;
+    }
+
+    .container-about{
+        max-width: 90%;
+    }
+
+    .linha-container-about{
+        max-width: 90%;
+    }
+    .linha-container-servicos{
+        max-width: 90%;
+    }
+    .linha-container-resumo{
+        max-width: 90%;
+    }
+    .linha-container-educacao{
+        max-width: 90%;
+    }
+
+}
+@media (max-width: 980px){
+    .header{
+        width: 100%;
+        height: 100%;
+    }
+
+    .linha-container-header{
+        width: 90%;
+        
+        border-radius: 20px 600px 20px 20px; /* Ajuste os valores conforme necessário */
+       
+    }
+
+    .linha-container-header::before{
+        clip-path: polygon(0 0, 45% 0, 100% 40%, 100% 100%, 0 100%); /* Define a forma da borda diagonal */
+        
+    }
+    .container-header{
+        width: 100%;
+        height: 94%;
+    }
+
+
+    .linha-porc-hab{
+        width: 100%;
+    }
+    .container-linha-porc-hab{
+        width: 90%;
+    }
+
+    .porc-hab-header{
+        gap: 50px;
+    }
+
+    .linha-cinza-header{
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 980px){
+    .porc-hab-header{
+        gap: 20px;
+      
+    }
+
+    .linha-redonda-porc{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .linha-redonda-porc-header{
+        width: 50px;
+        height: 50px;
+    }
+
+    .linha-redonda-porc-header80{
+        width: 50px;
+        height: 50px;
+    }
+
+    .linha-redonda-porc p{
+        font-size: 12px;
+    }
+
+    .container-main{
+        padding-left: 30px;
+    }
+
+    .texto-introducao h1{
+        font-size: 35px;
+    }
+    
+    .texto-introducao h2{
+        font-size: 35px;
+    }
+
+    .texto-introducao-c-p-2 {
+        padding-left: 0;
+       
+    }
+    .texto-introducao-c-p{
+        gap: 30px;
+    }
+    .texto-introducao-c-p p{
+        font-size: 14px;
+    }
+
+    .container-about{
+        padding-left: 30px;
+    }
+
+    .texto-introducao-about h1{
+        font-size: 35px;
+    }
+    
+    .div-do-meio-hp{
+        margin-left: 0;
+        margin-right: 0;
+    }
+       
+    .div-do-meio2{
+       margin-right: 0;
+    }
+
+    .habilidades-de-programacao p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .habilidades-de-programacao{
+        gap: 10px;
+    }
+
+    .habilidades-de-programacao{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Define 2 colunas de largura igual */
+    }
+
+   .container-servicos{
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 0;
+   }
+
+   .introducao-servicos h1{
+     font-size: 35px;
+   }
+
+   .introducao-servicos{
+    width: 100%;
+   }
+
+   .introducao-servicos{
+    padding-right: 10px;
+   }
+
+   .introducao-servicos p{
+    text-align: left;
+   }
+
+  .especif-servicoes{
+    flex-direction: column;
+  }
+
+  .linha-espec-divs1-3{
+    width: 90%;
+    margin-right: 0;
+  }
+
+  .espec-divs{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px ; 
+  }
+
+  .linha-espec-divs{
+    width: 90%;
+    margin-right: 0;
+  }
+
+  .linha-espec-divs h2{
+    font-size: 20px;
+  }
+
+  .linha-espec-divs1-3 h2{
+    font-size: 20px;
+  }
+
+  
+  .linha-espec-divs p{
+    
+    font-size: 14px;
+  }
+
+  .linha-espec-divs1-3 p{
+    font-size: 14px;
+  }
+
+  .container-resumo{
+    padding-left: 0;
+  }
+
+  .tema-resumo{
+    padding-left: 30px;
+  }
+
+  .introducao-resumo{
+    padding-left: 30px;
+  }
+
+  .introducao-resumo h1{
+    font-size: 35px;
+  }
+
+  .introducao-resumo p{
+    text-align: left;
+  }
+
+  .linha-container-resumo{
+    width: 100%;
+  }
+
+  .introducao-resumo{
+    width: 100%;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .ag-timeline-card_img-box p{
+    font-size: 15px;
+    
+}
+
+  .projects h2{
+    font-size: 40px;
+  }
+
+  .projects p{
+    margin-bottom: 30px;
+  }
+
+  .project-list-container{
+    flex-direction: column;
+    gap: 30px;
+}
+
+  .project-list-container2{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+
+  .project-list-container img{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container-educacao{
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .tema-educacao{
+    width: 100%;
+  }
+
+  .tema-educacao h1{
+    font-size: 24px;
+  }
+
+  .universidade-educacao{
+    flex-direction: column;
+  }
+  .curso-espec h1{
+    font-weight: 300 ;
+  }
+
+  .container-u-c-c{
+    flex-direction: column;
+  }
+
+  .linha-esq-c-c{
+    margin-left: 0;
+  }
+
+  .cursos-complementares p{
+    margin-left: 0;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+
+  .linha-esq-c-c{
+    border-left: none;
+  }
+ 
+  .tema-educacao-complementares h1{
+    font-size: 35px;
+  }
+  
+  .container-resumo{
+    padding-right: 10px;
+  }
+
+  footer{
+    text-align: center;
+    font-size: 11px;
+  }
+}
